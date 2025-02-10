@@ -1,0 +1,12 @@
+.client-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;  /* Optional: add border radius to images */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  Optional: add some shadow */
+  }
+  

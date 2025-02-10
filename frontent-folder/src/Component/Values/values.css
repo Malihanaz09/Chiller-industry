@@ -1,0 +1,29 @@
+.values{
+    margin: 20px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* text-align: center; */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.right-side{
+    margin: auto;
+}
+.right-side h1{
+    font-size: 50px;
+    margin-top: 10px;
+}
+.right-side p{
+    padding: 10px ;
+}
+
+@media (max-width:750px) {
+    .values{
+        flex-wrap: wrap-reverse;
+    }
+    .left-side img{
+        width: 300px;
+    }
+}

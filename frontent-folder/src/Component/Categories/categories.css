@@ -1,0 +1,35 @@
+.categories{
+    width: 100%;
+    margin: 70px 0px;
+    text-align: center;
+    position: relative;
+}
+.categories h1{
+     font-size: 40px;
+}
+.categories-text{
+    width: 50%;
+    position: absolute;
+    top: 60px;
+    left: 25%;
+}
+.categories-img img{
+    width: 100%;
+    /* height: 600px; */
+
+}
+
+@media (max-width:750px) {
+    .categories-text{
+        width: 80%;
+        position: absolute;
+        top: 10px;
+        left: 40px;
+    }
+    .categories h1{
+        font-size: 30px;
+   }
+   .categories p{
+    display: none
+   };
+}
