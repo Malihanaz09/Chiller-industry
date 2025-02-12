@@ -23,12 +23,12 @@
   }
   .text-overlay h2 {
     margin: 0;
-    font-size: 45px;
+    font-size: 55px;
     font-weight: bold;
   }
   .text-overlay p {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.4;
   }
   .text-overlay button{
@@ -58,6 +58,8 @@
   button:hover {
     background-color: rgb(71, 166, 255);
     border: none;
+    box-shadow: 5px 5px 5px black;
+
   }
   
   button:focus {

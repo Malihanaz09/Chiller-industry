@@ -43,6 +43,9 @@
     font-size: 15px;
     font-weight: 700;
   }
+  .about button:hover{
+    box-shadow: 5px 5px 5px black;
+  }
 
 @media (max-width:750px) {
   .about{

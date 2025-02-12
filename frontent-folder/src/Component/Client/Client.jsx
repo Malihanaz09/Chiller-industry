@@ -27,7 +27,8 @@ const Client = () => {
   };
 
   return (
-    <div className="client-container">
+    <div className="client-container" id='client'>
+      <h2>Our <span style={{color:"rgb(71, 166, 255"}}>Client</span></h2>
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index}>

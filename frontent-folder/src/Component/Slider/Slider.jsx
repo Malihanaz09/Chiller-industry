@@ -33,9 +33,9 @@ const Slider = () => {
           alt={`Slide ${currentIndex + 1}`}
         />
         <div className="text-overlay">
-          <h2  data-aos="fade-right" >{slideData[currentIndex].heading}</h2>
-          <p>{slideData[currentIndex].paragraph}</p>
-          <button id='btn'>Shop now</button>
+          <h2  data-aos="fade-up-right">{slideData[currentIndex].heading}</h2>
+          <p data-aos="fade-up-left" >{slideData[currentIndex].paragraph}</p>
+          <button id='btn' data-aos="fade-up-right">Shop now</button>
         </div>
       </div>
 

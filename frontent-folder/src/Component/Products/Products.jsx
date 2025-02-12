@@ -10,7 +10,7 @@ const Products = ({category}) => {
   const {product_list} = useContext(StoreContext)
 
   return (
-    <div className='products'>
+    <div className='products' id='product'>
       <h1>Our  <span style={{color:"rgb(71, 166, 255" }} >Products</span></h1>
     
       <div className='product-display' id='product-display'>         

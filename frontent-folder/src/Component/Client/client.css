@@ -1,9 +1,15 @@
 .client-container {
     width: 80%;
     margin: auto;
+    padding: 20px;
   }
-  
+  .client-container h2{
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+  }
   .slick-slide img {
+    padding: 20px;
     width: 100%;
     height: auto;
     border-radius: 10px;  /* Optional: add border radius to images */
