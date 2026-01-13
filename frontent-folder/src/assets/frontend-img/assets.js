@@ -34,6 +34,10 @@ import product_3 from './product_3.png'
 import product_4 from './product_4.png'
 import product_5 from './product_5.png'
 import product_6 from './product_6.png'
+import client_1 from './Client_1.png'
+import client_2 from './Client_2.png'
+import client_3 from './Client_3.png'
+import client_4 from './Client_4.png'
 
 
 export const assets = {
@@ -58,8 +62,21 @@ export const assets = {
     // profile_icon,
     // logout_icon,
     bag_icon,
-    parcel_icon
+    parcel_icon,
+
 }
+export const clientImg = [
+  {
+    image: client_1
+  },
+    {
+    image: client_2
+  },  {
+    image: client_3
+  },  {
+    image: client_4
+  }
+];
 
 export const slideData = [
   {

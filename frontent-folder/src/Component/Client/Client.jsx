@@ -4,16 +4,10 @@ import Slider from 'react-slick';  // Import Slider from 'react-slick'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { clientImg } from '../../assets/frontend-img/assets';
+
 
 const Client = () => {
-  const images = [
-    "https://via.placeholder.com/150",  // Replace with your actual image URLs
-    "https://via.placeholder.com/150",
-    "https://via.placeholder.com/150",
-    "https://via.placeholder.com/150",
-    "https://via.placeholder.com/150",
-  ];
-
   const settings = {
     dots: true,         // Show navigation dots
     infinite: true,     // Infinite loop
@@ -30,9 +24,9 @@ const Client = () => {
     <div className="client-container" id='client'>
       <h2>Our <span style={{color:"rgb(71, 166, 255"}}>Client</span></h2>
       <Slider {...settings}>
-        {images.map((image, index) => (
+         {clientImg.map((item, index) => (
           <div key={index}>
-            <img src={image} alt={`Slider image ${index + 1}`} />
+            <img src={item.image} alt={`Client ${index + 1}`} />
           </div>
         ))}
       </Slider>
