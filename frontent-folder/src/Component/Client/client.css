@@ -11,8 +11,23 @@
   .slick-slide img {
     padding: 20px;
     width: 100%;
+    margin: auto;
     height: auto;
-    border-radius: 10px;  /* Optional: add border radius to images */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  Optional: add some shadow */
+    border-radius: 10px; 
   }
-  
+
+
+  @media (max-width: 750px) {
+  .client-container {
+    width: 100%;
+  }
+
+   .slick-slide {
+    padding: 0 10px;
+  }
+
+  .slick-slide img {
+    width: 100px;
+    padding: 10px;
+  }
+}
